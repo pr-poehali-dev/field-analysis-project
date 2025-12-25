@@ -119,6 +119,32 @@ const Index = () => {
             Первая очистка и аналитика в одном прицепе
           </p>
           
+          <div className="max-w-6xl mx-auto mb-16">
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl hover-scale">
+                <img 
+                  src="https://cdn.poehali.dev/projects/6f7912fc-0afd-4c1d-8391-aef294701cf9/files/0d3f7417-9be6-4f56-99ff-e76f6356239e.jpg" 
+                  alt="Чистое зерно" 
+                  className="w-full h-80 object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                  <p className="text-white text-xl font-bold p-6">Зерно премиум-качества после очистки</p>
+                </div>
+              </div>
+              
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl hover-scale">
+                <img 
+                  src="https://cdn.poehali.dev/projects/6f7912fc-0afd-4c1d-8391-aef294701cf9/files/bec9e5db-df77-42ea-b2ad-3928b55d7237.jpg" 
+                  alt="Цифровая аналитика" 
+                  className="w-full h-80 object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                  <p className="text-white text-xl font-bold p-6">Карта урожайности в реальном времени</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <div className="max-w-5xl mx-auto">
             <div className="grid md:grid-cols-4 gap-4">
               <div className="text-center p-6 bg-white rounded-lg shadow-md hover-scale">
@@ -362,9 +388,17 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-gradient-to-br from-primary to-primary/80 text-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center mb-12">
+      <section className="py-24 relative overflow-hidden">
+        <div className="absolute inset-0">
+          <img 
+            src="https://cdn.poehali.dev/projects/6f7912fc-0afd-4c1d-8391-aef294701cf9/files/12f6219d-07af-497b-b90a-58edc53c1628.jpg" 
+            alt="Поля Казахстана" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/95 to-primary/80"></div>
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-4xl mx-auto text-center mb-12 text-white">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Первым 10 клиентам — годовая подписка на агроаналитику Digital Agro в подарок
             </h2>
